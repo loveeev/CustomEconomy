@@ -1,0 +1,12 @@
+name: AstraEconomy
+version: '${project.version}'
+main: dev.loveeev.untitled10.Main
+api-version: '1.16'
+commands:
+  currency:
+    permission: economy.currency
+    permission-message: You dont have perm
+permissions:
+  economy.currency:
+    default: op
+
